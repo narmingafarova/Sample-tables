@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample form-3</title>
+
+    <style>
+        
+        form {
+            border: 2px dashed dimgray;           
+            background-color: rgb(236, 236, 241);
+            padding: 7px;
+            text-align: center;
+            
+        }
+
+        fieldset {
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="#" method="GET">
+    <fieldset>
+        <legend>Member Demographics</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"> 
+        
+        <p>Are you a Member?</p>
+        <input type="radio" name="member" id="member" checked>
+        <label for="member">Member</label>
+        <input type="radio" name="member" id="member">
+        <label for="member">Non-member</label>
+        <br> <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br> <br>
+    </fieldset>    
+
+        <label for="facility">Facility</label>
+        <select name="facility" id="facility">
+            <option value="badminton">Badminton</option>
+            <option value="tennis">Tennis</option>
+            <option value="futbol">Futbol</option>
+        </select>
+        <br> <br>
+
+        <label for="date">Select a reservation date and time:</label> <br>
+        <input type="date" name="date" id="date">
+        <input type="time" name="date" id="date">
+        <br> <br>
+
+        <input type="checkbox" name="policy" id="policy">
+        <label for="policy">I agree to the club's reservation policy</label>
+        <br> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample form-2</title>
+
+    <style>
+        body {
+            border: 1px solid gray;
+            border-left: 5px solid blue;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create an Account</h1>
+    <form action="#" method="GET">
+        <label for="email">Email:</label> <br>
+        <input type="email" name="email" id="email">
+        <br> <br>
+
+        <label for="password">Password:</label> <br>
+        <input type="password" name="password" id="password">
+        <br> <br>
+
+        <label for="age">Age:</label> <br>
+        <input type="number" name="age" id="age" value="Select Age:">
+        <br> <br>
+
+        <label for="about">Tell us a little about yourself:</label> <br>
+        <textarea name="about" id="about" rows="4" cols="40"></textarea>
+        <br> <br>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree to the <a href="#">terms of service</a></label>
+        <br> <br>
+
+        <input type="submit" value="Sign up">
+    </form>
+</body>
+</html>

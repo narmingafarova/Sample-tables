@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample form-1</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <label for="fname">Full name*:</label> <br>
+        <input type="text" name="fname" id="fname" placeholder="FirstName LastName" autofocus required>
+        <br> <br>
+
+        <label for="email">Email address*:</label> <br>
+        <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS" required>
+        <br> <br>
+
+        <label for="package">Select Tour Package*:</label> <br>
+        <select name="package" id="package" required>
+            <option value="Goa">Goa</option>
+            <option value="Osaka">Osaka</option>
+            <option value="Seoul">Seoul</option>
+        </select>
+        <br> <br>
+
+        <label for="arrival">Arrival date*:</label> <br>
+        <input type="date" name="arrival" id="arrival" required>
+        <br> <br>
+
+        <label for="number">Number of persons*:</label> <br>
+        <input type="number" name="number" id="number" required>
+
+        <p>What would you want to avail?*</p> 
+        <label for="avail">Boarding</label>  
+        <input type="checkbox" name="avail" id="avail"> <br>
+        <label for="avail">Fooding</label>  
+        <input type="checkbox" name="avail" id="avail"> <br>
+        <label for="avail">Sight seeing</label> 
+        <input type="checkbox" name="avail" id="avail"> 
+        <br> <br>
+
+        <label for="code">Discout Coupon code:</label> <br>
+        <input type="text" name="code" id="code">
+
+        <p>Terms and conditions*</p> 
+        <input type="radio" name="terms" id="terms" checked> 
+        <label for="terms">I agree</label> 
+        <input type="radio" name="terms" id="terms"> 
+        <label for="terms">I disagree</label> 
+        <br> <br>
+
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>

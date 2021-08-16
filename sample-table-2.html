@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample table-2</title>
+
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+
+        th,td {
+            padding: 5px;
+            text-align: start;
+        }
+
+        th {
+            font-style: inherit;
+            background-color: rgb(238, 238, 245);
+        }
+
+        .head {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+       <caption>A complex table</caption>
+       <tr>
+           <th colspan="3">Invoice #123456789</th>
+           <th>14 January 2025</th>
+       </tr>
+       <tr>
+           <td colspan="2">
+               <span class="head">Pay to:</span> 
+               <div>
+                    <span>Acme Billing Co.</span>
+               </div>
+               <div>
+                    <span>123 Main St.</span>
+               </div>
+               <div>
+                    <span>Cityville, NA 12345</span>
+               </div>
+           </td>
+           <td colspan="2">
+               <span class="head">Customer:</span> 
+               <div>
+                    <span>John Smith</span>
+               </div>
+               <div>
+                    <span>321 Willow Way</span>
+               </div>
+               <div>
+                    <span>Southeast Northwestershire, MA 54321</span>
+               </div>
+            </td>
+       </tr>
+       <tr>
+           <th>Name/Description</th>
+           <th>Qty.</th>
+           <th>@</th>
+           <th>Cost</th>
+       </tr>
+       <tr>
+           <td>Paperclips</td>
+           <td>1000</td>
+           <td>0.01</td>
+           <td>10.00</td>
+       </tr>
+       <tr>
+           <td>Staples (box)</td>
+           <td>100</td>
+           <td>1.00</td>
+           <td>100.00</td>
+       </tr>
+       <tr>
+           <th colspan="3">Subtotal</th>
+           <td>110.00</td>
+       </tr>
+       <tr>
+           <th colspan="2">Tax</th>
+           <td>8%</td>
+           <td>8.80</td>
+       </tr>
+       <tr>
+           <th colspan="3">Grand Total</th>
+           <td>$ 118.80</td>
+       </tr>
+   </table>
+</body>
+</html>
